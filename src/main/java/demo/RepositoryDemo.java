@@ -28,4 +28,10 @@ null, 12_000, "MAD",
 
     repository.deleteById(1L);
     System.out.println(repository.findAll());
+
+
+
+
+    repository.populateData();
+    System.out.println(repository.findAll().size());
 }
